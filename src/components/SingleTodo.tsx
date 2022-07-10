@@ -11,7 +11,6 @@ interface Props {
 }
 
 
-
 const SingleTodo:FC<Props> = ({ todo,todos,setTodos}) => {
 
     const [ edit,setEdit ] = useState<boolean>(false)
